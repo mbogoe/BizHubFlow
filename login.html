@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="login">Login to Access BizHub Flow</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email (required)">
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your Password (required)">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="social-login">
+            <p>Sign in using</p>
+            <div class="icons">
+                <!-- Insert social media icons here -->
+                <!-- Example: <img src="facebook.png" alt="Facebook"> -->
+            </div>
+        </div>
+        <p>Don't have a BizHub Flow account? <a href="signup.html">Sign up now</a>.</p>
+    </div>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> BizHub Flow Corporation. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

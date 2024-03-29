@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BizHub Flow Corporation Ltd</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to BizHub Flow Corporation Ltd</h1>
+    <p>A cloud software company based in Nairobi, Kenya.</p>
+    <p>We provide a modular business cloud suite comprising:</p>
+    <ul>
+      <li>Accounting</li>
+      <li>Inventory</li>
+      <li>Payroll</li>
+      <li>Leave Management</li>
+      <li>Website CMS (Content Management System)</li>
+      <li>Corporate Email solutions</li>
+    </ul>
+    <p>Our software is carefully crafted to suit progressive Medium and Small businesses (SMEs/SMBs).</p>
+    <p>We help our clients achieve:</p>
+    <ul>
+      <li>Professionalism in their business operations</li>
+      <li>Flexibility to work from anywhere in the world.</li>
+      <li>The choice NOT to print</li>
+    </ul>
+  </header>
+  <main>
+    <!-- Main content goes here -->
+  </main>
+  <footer>
+    <p>&copy; 2024 BizHub Flow Corporation Ltd. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Example JavaScript code for form validation
+    document.addEventListener('DOMContentLoaded', function () {
+      const signupForm = document.getElementById('signupForm');
+      signupForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const name = document.getElementById('signupName').value;
+        const email = document.getElementById('signupEmail').value;
+        const password = document.getElementById('signupPassword').value;
+        if (name && email && password) {
+          // Perform signup logic here
+          alert('Sign up successful!');
+        } else {
+          alert('Please fill in all fields.');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - BizHub Flow</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Start with your free BizHub Flow account today</h2>
+        <form id="signupForm">
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email (required)">            
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your Password (required)">
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        <p>or sign in using <a href="#">Google</a>, <a href="#">Linkedin</a>, or <a href="#">Office365</a>.</p>
+    </div>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> BizHub Flow. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
